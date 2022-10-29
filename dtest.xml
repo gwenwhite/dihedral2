@@ -21,7 +21,7 @@
     <Type name="cv" class="cv" element="C" mass="12.01" def="[C;X3;r4]" overrides="c2" desc="Sp2 carbons in square systems" doi="10.1002/jcc/20035"/>
     <Type name="cz" class="cz" element="C" mass="12.01" def="[C;X3](N)(N)N" overrides="c2" desc="Sp2 carbon in guanidine group" doi="10.1002/jcc/20035"/>
     <Type name="ha" class="ha" element="H" mass="1.008" def="H[C;!X4]" desc="H bonded to aromatic carbon" doi="10.1002/jcc/20035"/>
-    <Type name="h1" class="h1" element="H" mass="1.008" def="H[C;X4]([N,O,F,Cl,Br,I,S])" overrides="hc" desc="H bonded to aliphatic carbon with 1 d. group" doi="10.1002/jcc/20035"/>
+    <Type name="h1" class="h1" element="H" mass="1.008" def="H[C;X4]([N,O,F,Cl,Br,I,S])" overrides="" desc="H bonded to aliphatic carbon with 1 d. group" doi="10.1002/jcc/20035"/>
     <Type name="h2" class="h2" element="H" mass="1.008" def="H[C;X4]([N,O,F,Cl,Br,I,S])[N,O,F,Cl,Br,I,S]" overrides="h1" desc="H bonded to aliphatic carbon with 2 d. group" doi="10.1002/jcc/20035"/>
     <Type name="h3" class="h3" element="H" mass="1.008" def="H[C;X4]([N,O,F,Cl,Br,I,S])([N,O,F,Cl,Br,I,S])[N,O,F,Cl,Br,I,S]" overrides="h2" desc="H bonded to aliphatic carbon with 3 d. group" doi="10.1002/jcc/20035"/>
     <Type name="h4" class="h4" element="H" mass="1.008" def="H[C;!X4]([N,O,F,Cl,Br,I,S])" overrides="ha" desc="H bonded to non-sp3 carbon with 1 d. group" doi="10.1002/jcc/20035"/>
